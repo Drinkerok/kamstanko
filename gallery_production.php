@@ -4,8 +4,6 @@ include ('center_column.php');
 $number = 4;
 $number2 = 1;
 $bkg = 'gallery.jpg'?>
-<script src="js/jquery-1.10.2.min.js"></script>
-<script src="js/lightbox-2.6.min.js"></script>
 <link href="css/lightbox.css" rel="stylesheet" />
 			<h1>Производство</h1>
 			<div class="single_category">

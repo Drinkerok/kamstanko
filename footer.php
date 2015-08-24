@@ -1,4 +1,6 @@
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+<script src="js/jquery-1.10.2.min.js"></script>
+<script src="js/lightbox-2.6.min.js"></script>
 <script src="js/sticky.js" type="text/javascript"></script>
 	<script>
 		var nav = document.getElementById('nav');

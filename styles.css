@@ -450,6 +450,19 @@ button{
 	font-weight:bold;
 }
 
+.images_block{
+	font-size: 0;
+	text-align: center;
+}
+	.images_block a{
+		display: inline-block;
+		vertical-align: top;
+		width: 50%;
+	}
+	.images_block img{
+		max-width: 100%;
+	}
+
 
 /* production */
 p.header{
