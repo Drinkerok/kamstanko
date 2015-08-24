@@ -2,7 +2,7 @@
 <div id="navigation">
 	<ul id="nav">
 		<li class="level-1"><a href="index.php">О компании</a></li>
-		<li class="level-1"><a href="management.php">Руководство</a></li>		
+		<!--<li class="level-1"><a href="management.php">Руководство</a></li>-->		
 		<li class="level-1"><a href="certificates.php">Сертификаты</a></li>
 		<li class="level-1"><a href="contacts.php">Контакты</a></li>
 		<li class="level-1"><a href="partners.php">Наши заказчики</a></li>
@@ -18,6 +18,10 @@
 </div>				
 </div>
 <div id="main_content">
+	
+		<a href="index.php" class="logo">
+			<img src="image/logo.jpg" alt="Logo"/>
+		</a>
 	<div id="main_navigation">
 		<ul>
 			<li class="active"><a href="index.php">О компании</a></li>

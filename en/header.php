@@ -19,6 +19,3 @@
 	<div id="background"></div>
 	<div id="container">
 		<div id="left_column">
-			<div id="logo">
-				<p><a href="index.php">KAM-Engineering<br>Group of companies</a></p>
-			</div>

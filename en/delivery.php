@@ -1,7 +1,7 @@
 <?php
 $page = 'Поставка оборудования';
 include ('left_column_2.php');
-$number = 3;
+$number = 4;
 $bkg="delivery.jpg";?>
 		<h1>Поставка оборудования</h1>
 			<ul>

@@ -1,7 +1,7 @@
 <?php
 $page = 'Модернизация и капитальный ремонт';
 include ('left_column_2.php');
-$number = 4;
+$number = 5;
 $bkg="modernization.jpg";?>
 		<h1>Модернизация и капитальный ремонт</h1>
 		<div id="modernization">
@@ -32,8 +32,6 @@ $bkg="modernization.jpg";?>
 						<li>ремонт или замена гидроаппаратуры и гидравлических шлангов;</li>
 						<li>ремонт или замена системы смазки;</li>
 						<li>ремонт или замена системы охлаждения;</li>
-						<li>ремонт или замена системы охлаждения;</li>
-						<li>ремонт или замена системы охлаждения;</li>
 						<li>ремонт или замена пневмоаппаратуры;</li>
 					</ul>
 					<p>Точностные характеристики модернизированного станка проверяются лазерным интерферометром RENISHAW.</p>
@@ -63,7 +61,7 @@ $bkg="modernization.jpg";?>
 		for(var i=0; i<uls.length; i++) (function(i) {
 			var element = uls[i];
 			var child = element.nextElementSibling;
-			element.onclick = function() {
+			element.onclick = function(event) {
 				event = event || window.event;
 				if (event.target.classList.contains('drop') || event.target.classList.contains('dropped')){
 					child.classList.toggle('hidden');

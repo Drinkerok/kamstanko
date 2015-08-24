@@ -1,7 +1,7 @@
 <?php
 $page = 'Сервисная и технологическая поддержка';
 include ('left_column_2.php');
-$number = 2;
+$number = 3;
 $bkg="service.jpg";?>
 		<h1>Сервисная и технологическая поддержка</h1>
 			<ul>

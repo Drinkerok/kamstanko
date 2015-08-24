@@ -2,16 +2,17 @@
 <div id="navigation">
 	<ul id="nav">
 		<li class="level-1"><a href="engineering.php">Инжиниринг</a></li>
-		<li class="level-1"><a href="production.php">Производство</a>
+		<li class="level-1"><a href="production.php">Производство станков</a>
 			<ul>
-				<li class="level-2"><a href="#">Специальные станки</a></li>
-				<li class="level-2"><a href="#">Электрошкафы</a></li>
-				<li class="level-2"><a href="serial_machines.php">Серийные станки</a></li>
-				<li class="level-2"><a href="#">Нестандартное оборудование</a></li>
+				<li class="level-2"><a href="special_machines.php">Специальные станки с ЧПУ</a></li>
+				<li class="level-2"><a href="milling_machines.php">Фрезерные станки с ЧПУ</a></li>
+				<li class="level-2"><a href="turning_machines.php">Токарные станки с ЧПУ</a></li>
+				<li class="level-2"><a href="#">Электрошкафы и пульты управления</a></li>
 			</ul>
 		</li>
-		<li class="level-1"><a href="service.php">Сервисная и технологическая поддержка</a>
-		<li class="level-1"><a href="delivery.php">Поставка оборудования</a></li>
+		<li class="level-1"><a href="#">Нестандартное производство</a>
+		<li class="level-1"><a href="service.php">Сервис</a>
+		<li class="level-1"><a href="delivery.php">Поставка оборудования и комплектующих</a></li>
 		<li class="level-1"><a href="modernization.php">Модернизация и капитальный ремонт</a></li>
 		<li class="level-1"><a href="it.php">IT-технологии для производства</a>
 			<ul>
@@ -21,11 +22,14 @@
 				<li class="level-2"><a href="black_box.php">Модуль «Черный ящик»</a></li>
 			</ul>
 		</li>
-		<li class="level-1"><a href="siemens.php">Склад SIEMENS</a></li>
+		<li class="level-1"><a href="siemens.php">Региональный склад SIEMENS</a></li>
 	</ul>
 </div>				
 </div>
 <div id="main_content">
+	<a href="index.php" class="logo">
+		<img src="image/logo.jpg" alt="Logo"/>
+	</a>
 	<div id="main_navigation">
 		<ul>
 			<li><a href="index.php">О компании</a></li>

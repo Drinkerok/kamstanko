@@ -1,7 +1,7 @@
 <?php
 $page = 'Нестандартное оборудованиe';
 include ('center_column.php');
-$number = 5;
+$number = 4;
 $number2 = 2;
 $bkg = 'gallery.jpg'?>
 <script src="js/jquery-1.10.2.min.js"></script>

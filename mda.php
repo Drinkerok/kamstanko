@@ -1,7 +1,7 @@
 <?php
 $page = 'Мониторинг работы станков. Модуль MDA';
 include ('left_column_2.php');
-$number = 5;
+$number = 6;
 $number2 = 0;
 $bkg = 'it_mda.jpg'?>
 		<h1>Мониторинг работы станков. Модуль MDA</h1>

@@ -1,7 +1,7 @@
 <?php
 $page = 'Сертификаты';
 include ('center_column.php');
-$number = 2;
+$number = 1;
 $bkg = 'certificates.jpg'?>
 <script src="js/jquery-1.10.2.min.js"></script>
 <script src="js/lightbox-2.6.min.js"></script>

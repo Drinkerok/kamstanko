@@ -2,7 +2,7 @@
 <div id="navigation">
 	<ul id="nav">
 		<li class="level-1"><a href="index.php">About us</a></li>
-		<li class="level-1"><a href="management.php">Management</a></li>		
+		<!--<li class="level-1"><a href="management.php">Management</a></li>-->		
 		<li class="level-1"><a href="certificates.php">Certificates</a></li>
 		<li class="level-1"><a href="contacts.php">Contact us</a></li>
 		<li class="level-1"><a href="partners.php">Our customers</a></li>
@@ -18,6 +18,9 @@
 </div>				
 </div>
 <div id="main_content">
+	<a href="index.php" class="logo">
+		<img src="../image/logo_en.jpg" alt="Logo"/>
+	</a>
 	<div id="main_navigation">
 		<ul>
 			<li class="active"><a href="index.php">About us</a></li>

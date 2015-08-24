@@ -1,7 +1,7 @@
 <?php
 $page = 'Управление программами ЧПУ. Модуль DNC';
 include ('left_column_2.php');
-$number = 5;
+$number = 6;
 $number2 = 1;
 $bkg = 'it_dnc.jpg'?>
 		<h1>Управление программами ЧПУ. Модуль DNC</h1>

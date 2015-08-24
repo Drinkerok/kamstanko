@@ -1,7 +1,7 @@
 <?php
 $page = 'Наши заказчики';
 include ('center_column.php');
-$number = 4;
+$number = 3;
 $bkg = 'partners.jpg'?>
 			<h1>Наши заказчики</h1>
 			<ul id="partners">

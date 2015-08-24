@@ -1,7 +1,7 @@
 <?php
 $page = 'Производство';
 include ('center_column.php');
-$number = 5;
+$number = 4;
 $number2 = 1;
 $bkg = 'gallery.jpg'?>
 <script src="js/jquery-1.10.2.min.js"></script>

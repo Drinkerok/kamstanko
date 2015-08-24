@@ -1,7 +1,7 @@
 <?php
 $page = 'Контакты';
 include ('left_column.php');
-$number = 3;
+$number = 2;
 $bkg = 'contacts.jpg'?>
 			<h1>Контакты</h1>
 			<div id="contact_info">
@@ -59,7 +59,7 @@ $bkg = 'contacts.jpg'?>
 					</form>
 				</div>
 			</div>
-			
+			<p class="address">Наш адрес: <span>426072, Россия, Удмуртская республика, г.Ижевск, ул. Ленина, 101</span></p>
 			<div id="map">
 				<div id="large_map">
 					<script type="text/javascript" charset="utf-8" src="//api-maps.yandex.ru/services/constructor/1.0/js/?sid=P6DWI09t67Cj3dOqYMF59A6GcBqTX2aH&width=600&height=450"></script>

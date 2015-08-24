@@ -1,13 +1,76 @@
 <?php
 $page = 'Выставки';
 include ('center_column.php');
-$number = 5;
+$number = 4;
 $number2 = 0;
 $bkg = 'gallery.jpg'?>
 <script src="js/jquery-1.10.2.min.js"></script>
 <script src="js/lightbox-2.6.min.js"></script>
 <link href="css/lightbox.css" rel="stylesheet" />
 			<h1>Выставки</h1>
+			<div class="single_category">
+				<div class="single_img">
+					<a href="image/gallery/exhibition/metalworking_2015/metalworking_2015-1_large.jpg" data-lightbox="metalworking_2015"><img src="image/gallery/exhibition/metalworking_2015/metalworking_2015-1_small.jpg"></a>
+					<p>Металлобработка, 2015 (Москва, Россия)</p>
+				</div>
+				<div class="hidden">
+					<a href="image/gallery/exhibition/metalworking_2015/metalworking_2015-2_large.jpg" data-lightbox="metalworking_2015"></a>
+					<a href="image/gallery/exhibition/metalworking_2015/metalworking_2015-3_large.jpg" data-lightbox="metalworking_2015"></a>
+					<a href="image/gallery/exhibition/metalworking_2015/metalworking_2015-4_large.jpg" data-lightbox="metalworking_2015"></a>
+					<a href="image/gallery/exhibition/metalworking_2015/metalworking_2015-5_large.jpg" data-lightbox="metalworking_2015"></a>
+					<a href="image/gallery/exhibition/metalworking_2015/metalworking_2015-6_large.jpg" data-lightbox="metalworking_2015"></a>
+					<a href="image/gallery/exhibition/metalworking_2015/metalworking_2015-7_large.jpg" data-lightbox="metalworking_2015"></a>
+				</div>
+			</div>
+			<div class="single_category">
+				<div class="single_img">
+					<a href="image/gallery/exhibition/mashex-syberia_2015/mashex-syberia_2015-1_large.jpg" data-lightbox="mashex-syberia_2015"><img src="image/gallery/exhibition/mashex-syberia_2015/mashex-syberia_2015-1_small.jpg"></a>
+					<p>Mashex Syberia, 2015 (Новосибирск, Россия)</p>
+				</div>
+				<div class="hidden">
+					<a href="image/gallery/exhibition/mashex-syberia_2015/mashex-syberia_2015-2_large.jpg" data-lightbox="mashex-syberia_2015"></a>
+					<a href="image/gallery/exhibition/mashex-syberia_2015/mashex-syberia_2015-3_large.jpg" data-lightbox="mashex-syberia_2015"></a>
+					<a href="image/gallery/exhibition/mashex-syberia_2015/mashex-syberia_2015-4_large.jpg" data-lightbox="mashex-syberia_2015"></a>
+					<a href="image/gallery/exhibition/mashex-syberia_2015/mashex-syberia_2015-5_large.jpg" data-lightbox="mashex-syberia_2015"></a>
+				</div>
+			</div>
+			<div class="single_category">
+				<div class="single_img">
+					<a href="image/gallery/exhibition/aero-india_2015/aero-india_2015-2_large.jpg" data-lightbox="aero-india_2015"><img src="image/gallery/exhibition/aero-india_2015/aero-india_2015-2_small.png"></a>
+					<p>АЭРО Индия, 2015 (Бангалор, Индия)</p>
+				</div>
+				<div class="hidden">
+					<a href="image/gallery/exhibition/aero-india_2015/aero-india_2015-1_large.jpg" data-lightbox="aero-india_2015"></a>
+					<a href="image/gallery/exhibition/aero-india_2015/aero-india_2015-3_large.jpg" data-lightbox="aero-india_2015"></a>
+					<a href="image/gallery/exhibition/aero-india_2015/aero-india_2015-4_large.jpg" data-lightbox="aero-india_2015"></a>
+					<a href="image/gallery/exhibition/aero-india_2015/aero-india_2015-5_large.jpg" data-lightbox="aero-india_2015"></a>
+					<a href="image/gallery/exhibition/aero-india_2015/aero-india_2015-6_large.jpg" data-lightbox="aero-india_2015"></a>
+					<a href="image/gallery/exhibition/aero-india_2015/aero-india_2015-7_large.jpg" data-lightbox="aero-india_2015"></a>
+					<a href="image/gallery/exhibition/aero-india_2015/aero-india_2015-8_large.jpg" data-lightbox="aero-india_2015"></a>
+					<a href="image/gallery/exhibition/aero-india_2015/aero-india_2015-9_large.jpg" data-lightbox="aero-india_2015"></a>
+					<a href="image/gallery/exhibition/aero-india_2015/aero-india_2015-10_large.jpg" data-lightbox="aero-india_2015"></a>
+				</div>
+			</div>
+			<div class="single_category">
+				<div class="single_img">
+					<a href="image/gallery/exhibition/timtos_2015/timtos_2015-1_large.jpg" data-lightbox="timtos_2015"><img src="image/gallery/exhibition/timtos_2015/timtos_2015-1_small.png"></a>
+					<p>TIMTOS, 2015 (Тайбэй, Тайвань)</p>
+				</div>
+				<div class="hidden">
+					<a href="image/gallery/exhibition/timtos_2015/timtos_2015-2_large.jpg" data-lightbox="timtos_2015"></a>
+					<a href="image/gallery/exhibition/timtos_2015/timtos_2015-3_large.jpg" data-lightbox="timtos_2015"></a>
+					<a href="image/gallery/exhibition/timtos_2015/timtos_2015-4_large.jpg" data-lightbox="timtos_2015"></a>
+					<a href="image/gallery/exhibition/timtos_2015/timtos_2015-5_large.jpg" data-lightbox="timtos_2015"></a>
+					<a href="image/gallery/exhibition/timtos_2015/timtos_2015-6_large.jpg" data-lightbox="timtos_2015"></a>
+					<a href="image/gallery/exhibition/timtos_2015/timtos_2015-7_large.jpg" data-lightbox="timtos_2015"></a>
+					<a href="image/gallery/exhibition/timtos_2015/timtos_2015-8_large.jpg" data-lightbox="timtos_2015"></a>
+					<a href="image/gallery/exhibition/timtos_2015/timtos_2015-9_large.jpg" data-lightbox="timtos_2015"></a>
+					<a href="image/gallery/exhibition/timtos_2015/timtos_2015-10_large.jpg" data-lightbox="timtos_2015"></a>
+					<a href="image/gallery/exhibition/timtos_2015/timtos_2015-11_large.jpg" data-lightbox="timtos_2015"></a>
+					<a href="image/gallery/exhibition/timtos_2015/timtos_2015-12_large.jpg" data-lightbox="timtos_2015"></a>
+					<a href="image/gallery/exhibition/timtos_2015/timtos_2015-13_large.jpg" data-lightbox="timtos_2015"></a>
+				</div>
+			</div>
 			<div class="single_category">
 				<div class="single_img">
 					<a href="image/gallery/exhibition/machine-tool_construction_2014/machine-tool_construction_2014-1_large.jpg" data-lightbox="machine-tool_construction_2014"><img src="image/gallery/exhibition/machine-tool_construction_2014/machine-tool_construction_2014-1_small.png" /></a>

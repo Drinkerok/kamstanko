@@ -1,10 +1,11 @@
 <?php
 $page = 'Склад SIEMENS';
 include ('left_column_2.php');
-$number = 6;
+$number = 7;
 $bkg="siemens.jpg";?>
 		<h1>Склад SIEMENS</h1>
-		<p align="center">Раздел находится в разработке</p>
+		<a href="catalogs/kamstanko_siemens.pdf" target="_blank" class="pdf">Перечень нашего регионального склада на 22.06.2015</a>
+		<!--<p align="center">Раздел находится в разработке</p>
 		<div id="siemens">
 			<div id="search">
 				<input type="text" value="Введите код продукта" id="search_input"/>
@@ -114,10 +115,10 @@ $bkg="siemens.jpg";?>
 				</ul>
 			</li>
 		</ul>
-		</div>
+		</div>-->
 		</div>
 	</div>
-<script>
+<!--<script>
 	var uls = document.getElementById('store').getElementsByTagName('UL');
 		for(var i=0; i<uls.length; i++) (function(i) {
 			var element = uls[i];
@@ -143,5 +144,5 @@ $bkg="siemens.jpg";?>
 	search.onclick = function(){
 		if (search.value == 'Введите код продукта') {document.getElementById('search_input').value = '';}
 	};
-</script>
+</script>-->
 <?php include ('footer.php');?>

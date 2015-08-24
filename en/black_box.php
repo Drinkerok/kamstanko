@@ -1,7 +1,7 @@
 <?php
 $page = 'Модуль «Черный ящик»';
 include ('left_column_2.php');
-$number = 5;
+$number = 6;
 $number2 = 2;
 $bkg = 'it_black_box.jpg'?>
 		<h1>Модуль «Черный ящик»</h1>

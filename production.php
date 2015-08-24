@@ -3,13 +3,25 @@ $page = 'Изготовление';
 include ('left_column_2.php');
 $number = 1;
 $bkg="production.jpg";?>
-		<h1>Изготовление</h1>
-			<ul>
-				<li>изготовление специальных станков с ЧПУ по техническим заданиям заказчика;</li>
-				<li>изготовление шкафов управления для технологического оборудования с использованием оборудования SIEMENS, MITSUBISHI, HEIDENHAIN, SCHNEIDER, OMRON;</li>
-				<li>изготовление специальных стендов для испытания редукторов вертолетов и авиационных двигателей;</li>
-				<li>серийное изготовление фрезерных обрабатывающих станков с ЧПУ собственной разработки под собственной торговой маркой.</li>
-			</ul>
+		<h1>Производство станков</h1>
+		<div class="productions">
+			<a href="special_machines.php" class="one_production">
+				<img src="image/production/cnc_special_machines.jpg" alt="Специальные станки с ЧПУ"/>
+				<p class="production_description">Специальные станки с ЧПУ</p>
+			</a>
+			<a href="turning_machines.php" class="one_production">
+				<img src="image/production/turning_cnc_machines.jpg" alt="Токарные станки с ЧПУ"/>
+				<p class="production_description">Токарные станки с ЧПУ</p>
+			</a>
+			<a href="milling_machines.php" class="one_production">
+				<img src="image/production/cnc_milling_machines.jpg" alt="Фрезерные станки с ЧПУ"/>
+				<p class="production_description">Фрезерные станки с ЧПУ</p>
+			</a>
+			<a href="#" class="one_production">
+				<img src="image/production/electrical_cabinets_and_control_panels.jpg" alt="Электрошкафы и пульты управления"/>
+				<p class="production_description">Электрошкафы и пульты управления</p>
+			</a>
 		</div>
 	</div>
+</div>
 <?php include ('footer.php');?>
